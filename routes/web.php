@@ -15,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', "Controller@hello");
 
-Route::get('mycv', "FirstController@cv")->name('mycv');
+Route::get('mycv', "Controller@cv")->name('mycv');
 
+Route::get('about', "Controller@about")->name('about');

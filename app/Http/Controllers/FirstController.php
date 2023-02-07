@@ -12,8 +12,8 @@ class FirstController extends Controller
 	use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 	
 
-	public function cv(){
-	    return view('mycv');
-	}
+	#public function cv(){
+	#	return view('mycv');
+	#}	
 
 }

@@ -1,4 +1,26 @@
+@extends('layouts.navbar')
+@section('title', 'Home')
+@section('content')
+
+    <h1> Welcome to Tommy's Website</h1>
+
+
+
+
+
+
+
+@endsection('content')
+
+
+
+
+
+
+
 <!DOCTYPE html>
+
+<!--
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -6,10 +28,10 @@
 
         <title>Tommy's website</title>
 
-        <!-- Fonts -->
+        Fonts 
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
+         Styles
         <style>
             html, body {
                 background-color: #fff;
@@ -97,4 +119,5 @@
             </div>
         </div>
     </body>
-</html>
+</html> -->
+

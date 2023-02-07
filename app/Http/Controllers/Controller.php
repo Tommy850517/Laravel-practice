@@ -17,8 +17,11 @@ class Controller extends BaseController
 	
 	}
 
-	#public function cv(){
-	 #   return view('mycv');
-	#}
+	public function cv(){
+	    return view('mycv');
+	}
 
+	public function about(){
+	    return view('About');
+	}
 }
