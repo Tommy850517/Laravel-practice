@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use DB;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -18,7 +18,12 @@ class Controller extends BaseController
 	}
 
 	public function cv(){
-	    return view('mycv');
+		$name = 'tommy';
+		$select = DB::select('SELECT * FROM new_table WHERE name = ?',[$name] );
+		#$result = json_decode($select, true);
+		#print_r( $select);
+		#echo $select[0]->date;
+		return view('mycv', compact('select'));
 	}
 
 	public function about(){
