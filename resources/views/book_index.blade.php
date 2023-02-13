@@ -2,9 +2,12 @@
 @section('title', 'Home')
 @section('content')
 
-    <h1> Welcome to Tommy's Website</h1>
+    <h1> 簡單記帳功能</h1>
 
-
+    <a href="{{ route('bookkeeping_update') }}">新增</a>
+    <a href="{{ route('bookkeeping_delete') }}">刪除</a>
+    <a href="{{ route('bookkeeping_query') }}">查詢</a>
+    <a href="https://github.com/Tommy850517/">修改</a>
 
 
 
@@ -108,7 +111,7 @@
 
                 <div class="links">
                     <a href="https://github.com/Tommy850517/">GitHub</a>
-                    <a href="{{ route('book_index') }}">CV</a>
+                   // <a href="">CV</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>

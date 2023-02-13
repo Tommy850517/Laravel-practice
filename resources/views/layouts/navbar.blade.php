@@ -29,11 +29,12 @@
 	    color: white;
 	}
     </style>
+
     </head>
 <body>
     <div class="topnav">
 	<a class="#Home" href="{{ ('/') }}">Home</a>
-	<a href="{{ ('mycv') }}">CV</a>
+	<a href="{{ ('book_index') }}">記帳</a>
   	<a href="https://github.com/Tommy850517">GitHub</a>
   	<a href="{{ ('about') }}">About</a>
     </div>
